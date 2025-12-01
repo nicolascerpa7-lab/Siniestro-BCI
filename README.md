@@ -23,7 +23,7 @@ flowchart LR
         PESADOS["Veh. Pesados:<br/>• Resp. Civil<br/>• Deducible<br/>• Depreciación PT %<br/>• Taller<br/>• Liquidadora"]
         
         CRITERIOS --> RAC
-        RAC --> LOP
+        RAC (Renta Car) --> LOP
         LOP --> PESADOS
     end
     
