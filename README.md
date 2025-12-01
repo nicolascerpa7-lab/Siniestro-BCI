@@ -7,7 +7,7 @@ flowchart LR
         direction TB
         DATOS["📋 DATOS<br/>• Datos<br/>• Giro"]
         REQUISITO["Flota > 20 Autos"]
-        FACTORES["Factores:<br/>• A1F Bancos<br/>• Leasing<br/>• RAC<br/>• Transporte Carga Gral."]
+        FACTORES["Factores:<br/>• A/F Bancos<br/>• Leasing<br/>• RAC<br/>• Transporte Carga Gral."]
         PROTOCOLO["Definir Protocolo<br/>Atención Siniestro"]
         
         DATOS --> REQUISITO
