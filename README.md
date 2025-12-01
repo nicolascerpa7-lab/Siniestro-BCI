@@ -22,8 +22,8 @@ flowchart LR
         LOP["LOP:<br/>Leasing / Operativo"]
         PESADOS["Veh. Pesados:<br/>• Resp. Civil<br/>• Deducible<br/>• Depreciación PT %<br/>• Taller<br/>• Liquidadora"]
         
-        CRITERIOS --> Renta Car
-        Renta Car --> LOP
+        CRITERIOS --> RentaCar
+        RentaCar --> LOP
         LOP --> PESADOS
     end
     
