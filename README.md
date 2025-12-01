@@ -18,12 +18,12 @@ flowchart LR
     subgraph EVALUACION["2. EVALUACIÓN"]
         direction TB
         CRITERIOS["Criterios:<br/>• Tipo Riesgo<br/>• Cobertura<br/>• T&C Especiales"]
-        DAC["DAC:<br/>Aprobación Indebida"]
-        LOP["LOP:<br/>Leasing / Opening"]
+        DAC["RAC:<br/>Aprobación Indebida"]
+        LOP["LOP:<br/>Leasing / Operativo"]
         PESADOS["Veh. Pesados:<br/>• Resp. Civil<br/>• Deducible<br/>• Depreciación PT %<br/>• Taller<br/>• Liquidadora"]
         
-        CRITERIOS --> DAC
-        DAC --> LOP
+        CRITERIOS --> RAC
+        RAC --> LOP
         LOP --> PESADOS
     end
     
